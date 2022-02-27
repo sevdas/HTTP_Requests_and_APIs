@@ -41,8 +41,11 @@ function showUser(xmlhttp) {
     console.log('user', user)
   } else {
    // show an error
+   $('#profile h2').text('No such user!')
   }
 }
 
+
+// BONUS: switch your getGithubInfo method to run asynchronously 
 
 
